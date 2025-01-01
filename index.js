@@ -68,13 +68,17 @@ let button2=document.querySelector("#btnOff")
 
 
 button1.addEventListener("click", () =>{
-    box.style.backgroundColor="green"
+      box.style.boxShadow = "30px 0px 100px 100px rgba(255, 255, 0, 0.8)"
+      box.style.border="10px solid yellow"
+      box.style.background="yellow"
 })
 
 
 
 button2.addEventListener("click", () =>{
-    box.style.backgroundColor="yellow"
+    box.style.boxShadow="none"
+      box.style.border="black 5px solid"
+       box.style.background="none"
 })
 
 
